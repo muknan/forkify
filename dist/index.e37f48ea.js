@@ -2479,8 +2479,8 @@ const state = {
 const loadRecipe = async function(id) {
     try {
         const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
-        const data = await res.json();
         if (!res.ok) throw new Error(`${data.message} (${res.status})`);
+        const data = await res.json();
         const { recipe } = data.data;
         state.recipe = {
             id: recipe.id,
@@ -2510,11 +2510,14 @@ class RecipeView {
     render(data) {
         this.#data = data;
         const markup = this.#generateMarkup();
-        this.#clear;
-        this.#parentElement.insertAdjacentHTML("afterbegin", markup);
+        this.#clear();
+        this.#addMarkup(markup);
     }
     #clear() {
         this.#parentElement.innerHTML = "";
+    }
+    #addMarkup(markup) {
+        this.#parentElement.insertAdjacentHTML("afterbegin", markup);
     }
     renderSpinner = function() {
         const markup = `
@@ -2524,8 +2527,8 @@ class RecipeView {
         </svg>
       </div>
       `;
-        this.#parentElement.innerHTML = "";
-        this.#parentElement.insertAdjacentHTML("afterbegin", markup);
+        this.#clear();
+        this.#addMarkup(markup);
     };
     #generateMarkup() {
         return `
