@@ -603,7 +603,7 @@ const controlRecipes = async function() {
         // 2) Rendering recipe
         (0, _recipeViewDefault.default).render(_model.state.recipe);
     } catch (err) {
-    // console.error(err);
+        (0, _recipeViewDefault.default).renderError();
     }
 };
 // window.addEventListener('hashchange', controlRecipes);
@@ -2493,6 +2493,7 @@ const loadRecipe = async function(id) {
     } catch (err) {
         // Temporary error handling
         console.error(`${err} \u{1F43C}\u{1F4A9}`);
+        throw err;
     }
 };
 
@@ -2539,6 +2540,8 @@ var _fractional = require("fractional");
 class RecipeView {
     #parentElement = document.querySelector(".recipe");
     #data;
+    #errorMessage = `We couldn't find the recipe. Please try another one!`;
+    #message = "";
     render(data) {
         this.#data = data;
         const markup = this.#generateMarkup();
@@ -2551,7 +2554,7 @@ class RecipeView {
     #addMarkup(markup) {
         this.#parentElement.insertAdjacentHTML("afterbegin", markup);
     }
-    renderSpinner = function() {
+    renderSpinner() {
         const markup = `
       <div class="spinner">
         <svg>
@@ -2561,7 +2564,35 @@ class RecipeView {
       `;
         this.#clear();
         this.#addMarkup(markup);
-    };
+    }
+    renderError(message = this.#errorMessage) {
+        const markup = `
+      <div class="error">
+        <div>
+          <svg>
+            <use href="${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
+          </svg>
+        </div>
+        <p>${message}</p>
+      </div>
+  `;
+        this.#clear();
+        this.#addMarkup(markup);
+    }
+    renderMessage(message = this.#message) {
+        const markup = `
+      <div class="message">
+        <div>
+          <svg>
+            <use href="${(0, _iconsSvgDefault.default)}#icon-smile"></use>
+          </svg>
+        </div>
+        <p>${message}</p>
+      </div>
+  `;
+        this.#clear();
+        this.#addMarkup(markup);
+    }
     #generateMarkup() {
         return `
     <figure class="recipe__fig">
