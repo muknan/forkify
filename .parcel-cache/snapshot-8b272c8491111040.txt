@@ -1,4 +1,4 @@
-9717
+9718
 81C:\Users\Mukul\Documents\Projects\JavaScript\forkify\forkify-flowchart-part-1.png132886955210000000 0
 104C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\features\instance\pad-start.js133570812909363221 0
 95C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\stable\number\virtual133570812914314901 1
@@ -16,7 +16,7 @@
 96C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\csso\lib\clean\TypeSelector.js133570458792681617 0
 84C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\msgpackr\pack.d.ts133570458791653267 0
 104C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\full\promise\with-resolvers.js133570812917039811 0
-57C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist133572137011997265 1
+57C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist133572185131769065 1
 102C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@parcel\source-map\dist\node.js.flow133570458784603920 0
 105C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\features\autofocus.js133570458790983392 0
 74C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\mdn-data133570458790015142 1
@@ -161,7 +161,7 @@
 108C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\features\function\virtual\index.js133570812904773007 0
 95C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\svgo\plugins\removeDoctype.js133570458791945776 0
 89C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\semver\functions\cmp.js133570458786341411 0
-73C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\controller.js133572133089888285 0
+73C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\controller.js133572183999346743 0
 100C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\modules\esnext.set.some.js133570812899638558 0
 91C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\csso\cjs\clean\Atrule.cjs133570458787815735 0
 100C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\full\typed-array\to-hex.js133570812914118091 0
@@ -239,11 +239,11 @@
 92C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\full\math\clamp.js133570812892540025 0
 74C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\sass\_upload.scss132886955210000000 0
 86C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\msgpackr-extract\src133570458784779948 1
-69C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\config.js133572109337906616 0
+69C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\config.js133572153997027558 0
 104C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\actual\string\virtual\small.js133570812911943133 0
 97C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\actual\instance\sort.js133570812912296326 0
 99C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@parcel\workers\lib\childState.js133570458795930992 0
-79C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\views\recipeView.js133572137011459533 0
+79C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\views\recipeView.js133572185139667819 0
 109C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\features\number\virtual\to-fixed.js133570812914037610 0
 97C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\regions\MS.js133570458800215772 0
 95C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\svgo\plugins\convertColors.js133570458791074135 0
@@ -259,11 +259,11 @@
 104C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\es\string\virtual\ends-with.js133570812894878262 0
 91C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@parcel\utils\src\glob.js133570458818863633 0
 110C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\internals\error-stack-installable.js133570812895295761 0
-68C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\model.js133572123731142776 0
+68C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\model.js133572161274025363 0
 96C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\immutable\dist\immutable.es.js133570459966592973 0
 112C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@parcel\core\lib\requests\AssetGraphRequest.js133570458824927100 0
 101C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\modules\es.string.repeat.js133570812897580877 0
-65C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\views133571277090180122 1
+65C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\views133572164981199786 1
 89C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\import-fresh\index.d.ts133570458786533571 0
 96C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\features\set\reduce.js133570812910379278 0
 97C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\regions\CA.js133570458792661462 0
@@ -1576,7 +1576,7 @@
 110C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\full\typed-array\to-locale-string.js133570812914244067 0
 100C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\svgo\plugins\removeStyleElement.js133570458792324177 0
 94C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\es\array\includes.js133570812904094715 0
-76C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\icons.dfd7a6db.svg133572137011867886 0
+76C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\icons.dfd7a6db.svg133572184004478149 0
 78C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\lmdb\read.js133570458793854148 0
 141C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\generator\sourceMap.js133570458793406594 0
 96C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\css-what\lib\commonjs\index.js133570458784936176 0
@@ -3040,7 +3040,7 @@
 133C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-json5133570458824826578 0
 83C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\is-number\LICENSE133570458785036982 0
 106C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@swc\helpers\_\_ts_metadata\package.json133570458796705791 0
-80C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.f7626f62.css.map133572137011877869 0
+80C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.f7626f62.css.map133572184004519751 0
 86C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\stable\error133570812915044181 1
 108C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@swc\helpers\esm\_sliced_to_array_loose.js133570458794283082 0
 137C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\tokenizer\const.js133570458789054002 0
@@ -4313,7 +4313,7 @@
 105C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\css-tree\cjs\tokenizer\adopt-buffer.cjs133570458784946261 0
 114C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\css-tree\cjs\tokenizer\char-code-definitions.cjs133570458788349556 0
 105C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\actual\string\to-well-formed.js133570812915084926 0
-76C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\icons.21bad73c.svg133572137011837789 0
+76C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\icons.21bad73c.svg133572184004572177 0
 94C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\css-tree\cjs\syntax\function133570458793677907 1
 95C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\css-tree\cjs\syntax\index.cjs133570458791930783 0
 97C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\features\set-timeout.js133570812911535169 0
@@ -7330,7 +7330,7 @@
 93C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\es\instance\keys.js133570812907178268 0
 102C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\es\instance\last-index-of.js133570812907318996 0
 92C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\es\instance\map.js133570812908007729 0
-76C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.f7626f62.css133572137011867886 0
+76C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.f7626f62.css133572184004478149 0
 139C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\match-graph.js133570458792394735 0
 120C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\features\mdn-text-decoration-line.js133570458799757079 0
 98C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\core-js\es\instance\match-all.js133570812908158716 0
@@ -8134,7 +8134,7 @@
 103C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\features\gamepad.js133570458797506911 0
 118C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\features\getelementsbyclassname.js133570458797612730 0
 106C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\features\hashchange.js133570458798085290 0
-68C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.html133572137011857882 0
+68C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.html133572168276227551 0
 100C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\features\heif.js133570458798100414 0
 102C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\features\hidden.js133570458798125612 0
 109C:\Users\Mukul\Documents\Projects\JavaScript\forkify\node_modules\caniuse-lite\data\features\html5semantic.js133570458798231535 0
@@ -9712,7 +9712,8 @@
 85C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\icons.21bad73c.ff0fca90.svg133570803060900195 0
 75C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.62406edb.js133570459990447020 0
 79C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.62406edb.js.map133570459990477337 0
-75C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\logo.726d37a8.png133572137011867886 0
-78C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\favicon.8b2f57bf.png133572137011953025 0
-75C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.e37f48ea.js133572137011973053 0
-79C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.e37f48ea.js.map133572137011983062 0
+79C:\Users\Mukul\Documents\Projects\JavaScript\forkify\src\js\views\searchView.js133572184659647253 0
+75C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\logo.726d37a8.png133572184004478149 0
+78C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\favicon.8b2f57bf.png133572184004509626 0
+75C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.e37f48ea.js133572185131748656 0
+79C:\Users\Mukul\Documents\Projects\JavaScript\forkify\dist\index.e37f48ea.js.map133572185131758700 0
