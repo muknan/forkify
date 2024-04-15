@@ -12,7 +12,6 @@ const timeout = function (s) {
   });
 };
 
-<<<<<<< HEAD
 export const AJAX = async function (url, uploadData = undefined) {
   try {
     const fetchPro = uploadData
@@ -34,8 +33,6 @@ export const AJAX = async function (url, uploadData = undefined) {
 };
 
 /*
-=======
->>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
 export const getJSON = async function (url) {
   try {
     const res = await Promise.race([fetch(url), timeout(TIMEOUT_DURATION)]);
@@ -46,7 +43,6 @@ export const getJSON = async function (url) {
     throw err;
   }
 };
-<<<<<<< HEAD
 
 export const sendJSON = async function (url, uploadData) {
   try {
@@ -67,5 +63,3 @@ export const sendJSON = async function (url, uploadData) {
   }
 };
 */
-=======
->>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
