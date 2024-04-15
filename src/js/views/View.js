@@ -27,6 +27,7 @@ export default class View {
       // console.log(curEl, newEl.isEqualNode(curEl));
 
       // Updates changed text
+      // nodeValue returns the text content of the element
       if (
         !newEl.isEqualNode(curEl) &&
         newEl.firstChild?.nodeValue.trim() !== ''
@@ -35,6 +36,7 @@ export default class View {
       }
 
       // Updates changed attributes
+      // Array.from to convert Node into an Array
       if (!newEl.isEqualNode(curEl)) {
         Array.from(newEl.attributes).forEach(attr =>
           curEl.setAttribute(attr.name, attr.value)
