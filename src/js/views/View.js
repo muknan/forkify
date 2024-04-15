@@ -94,6 +94,7 @@ export default class View {
     this._clear();
     this._addMarkup(markup);
   }
+<<<<<<< HEAD
 
   resetModal() {
     const markup = `
@@ -169,4 +170,6 @@ export default class View {
     this._clear();
     this._addMarkup(markup);
   }
+=======
+>>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
 }

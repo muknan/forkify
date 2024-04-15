@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import { API_URL, RES_PER_PAGE, KEY } from './config';
 // import { getJSON, sendJSON } from './helper';
 import { AJAX } from './helper';
+=======
+import { API_URL, RES_PER_PAGE } from './config';
+import { getJSON } from './helper';
+>>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
 
 export const state = {
   recipe: {},
@@ -13,6 +18,7 @@ export const state = {
   bookmarks: [],
 };
 
+<<<<<<< HEAD
 const createRecipeObject = function (data) {
   const { recipe } = data.data;
   return {
@@ -31,12 +37,30 @@ const createRecipeObject = function (data) {
 export const loadRecipe = async function (id) {
   try {
     const data = await AJAX(`${API_URL}${id}?key=${KEY}`);
+=======
+export const loadRecipe = async function (id) {
+  try {
+    const data = await getJSON(`${API_URL}${id}`);
+>>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
     // Moving the commented code to helper.js
     // const res = await fetch(`${api}/${id}`);
     // if (!res.ok) throw new Error(`${data.message} (${res.status})`);
     // const data = await res.json();
     const { recipe } = data.data;
+<<<<<<< HEAD
     state.recipe = createRecipeObject(data);
+=======
+    state.recipe = {
+      id: recipe.id,
+      title: recipe.title,
+      publisher: recipe.publisher,
+      sourceUrl: recipe.source_url,
+      image: recipe.image_url,
+      servings: recipe.servings,
+      cookingTime: recipe.cooking_time,
+      ingredients: recipe.ingredients,
+    };
+>>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
     if (state.bookmarks.some(bookmark => bookmark.id === id)) {
       state.recipe.bookmarked = true;
     } else {
@@ -52,14 +76,21 @@ export const loadRecipe = async function (id) {
 export const loadSearchResults = async function (query) {
   try {
     state.search.query = query;
+<<<<<<< HEAD
     const data = await AJAX(`${API_URL}?search=${query}&key=${KEY}`);
+=======
+    const data = await getJSON(`${API_URL}?search=${query}`);
+>>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
     state.search.results = data.data.recipes.map(rec => {
       return {
         id: rec.id,
         title: rec.title,
         publisher: rec.publisher,
         image: rec.image_url,
+<<<<<<< HEAD
         ...(rec.key && { key: rec.key }),
+=======
+>>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
       };
     });
     state.search.page = 1;
@@ -123,6 +154,7 @@ const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
 // clearBookmarks();
+<<<<<<< HEAD
 
 export const uploadRecipe = async function (newRecipe) {
   try {
@@ -154,3 +186,5 @@ export const uploadRecipe = async function (newRecipe) {
     throw err;
   }
 };
+=======
+>>>>>>> b93b0d7d9ffec3dc904939468aeab7ab0407253c
